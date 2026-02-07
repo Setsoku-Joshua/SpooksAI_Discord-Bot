@@ -1,0 +1,22 @@
+{
+  "name": "discord-openai-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that forwards mentions to OpenAI and replies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.25.1",
+    "dotenv": "^16.6.1",
+    "openai": "^6.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  },
+  "keywords": [],
+  "type": "commonjs"
+}
